@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(void){
+  int a;
+  char x ;
+  printf("Enter the number :");
+  scanf("%d",&a);
+  x= numtype(a);
+  printf("%c",x);
+}
+int numtype(a) {
+
+  if(a%2==0)
+  {
+    printf("even");
+    return 0;
+  }
+  else
+  {
+    printf("odd");
+    return 0;
+  }
+}
